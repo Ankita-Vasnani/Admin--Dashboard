@@ -34,14 +34,14 @@ return(
                     </NavLink>
                     
                     
-                    <li className="sidebarListItems ">
+                    {/* <li className="sidebarListItems ">
                 <TimelineIcon className='sidebarIcon'/>
                 Analytics
                     </li>
                     <li className="sidebarListItems ">
                 <TrendingUpIcon className='sidebarIcon'/>
                Sales
-                    </li>
+                    </li> */}
                 </ul>
             </div>
             <div className="sidebarMenu">
@@ -56,10 +56,10 @@ return(
                     </li>
                     </NavLink>
                    
-                    <li className="sidebarListItems ">
+                    {/* <li className="sidebarListItems ">
                 <PaidIcon className='sidebarIcon'/>
                 Transactions
-                    </li>
+                    </li> */}
                     <NavLink to ='/products' className='link'>
                         <li className="sidebarListItems ">
                 <InventoryIcon className='sidebarIcon'/>
@@ -67,10 +67,10 @@ return(
                     </li>
                     </NavLink>
                     
-                    <li className="sidebarListItems ">
+                    {/* <li className="sidebarListItems ">
                 <EqualizerIcon className='sidebarIcon'/>
               Reports
-                    </li>
+                    </li> */}
                 </ul>
             </div>
             <div className="sidebarMenu">
