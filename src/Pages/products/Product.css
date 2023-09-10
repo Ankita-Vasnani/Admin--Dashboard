@@ -1,0 +1,122 @@
+.product{
+    flex: 4;
+    padding: 20px;
+}
+.productTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.productAddbtn{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 80px;
+    background-color: rgb(202, 202, 217);
+    color: rgb(97, 70, 218);
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.productTop{
+    display: flex;
+}
+.productTopLeft,
+.productTopRight{
+    flex: 1 !important;
+}
+.productTopRight{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: -14px 16px 58px -11px rgba(230,214,230,1);
+    -moz-box-shadow: -14px 16px 58px -11px rgba(230,214,230,1);
+    box-shadow: -14px 16px 58px -11px rgba(230,214,230,1);
+}
+.productInfoImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.productInfoTop{
+    display: flex;
+    align-items: center;
+}
+.productName{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.productInfoBottom{
+    margin-top: 10px;
+}
+.productInfoItem{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.productInfoValue{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.productBottom{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: -14px 16px 58px -11px rgba(230,214,230,1);
+    -moz-box-shadow: -14px 16px 58px -11px rgba(230,214,230,1);
+    box-shadow: -14px 16px 58px -11px rgba(230,214,230,1);
+}
+.productform{
+    display: flex;
+    justify-content: space-between;
+}
+.productformLeft{
+    display: flex;
+    flex-direction: column;
+}
+.productformLeft > label{
+    margin-bottom: 10px;
+    color: gray;
+}
+.productformLeft > input{
+margin-bottom: 10px;
+padding: 5px;
+border-bottom: 1px solid gray !important;
+border: none;
+}
+.productformLeft >select{
+margin-bottom: 10px;
+}
+.productUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.productformRight{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+}
+.productUpload{
+    display: flex;
+    align-items: center;
+}
+.productIcon{
+    color: rgb(49, 46, 46);
+    cursor: pointer;
+}
+.productbtn{
+    border: none;
+    background-color: rgb(66, 66, 202);
+    color: white;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
